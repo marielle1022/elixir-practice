@@ -7,7 +7,8 @@ use Mix.Config
 
 # Configures the endpoint
 config :practice, PracticeWeb.Endpoint,
-  url: [host: "localhost"],
+  #url: [host: "localhost"],
+  url: [host: "hw03.mgrathena.info"],
   secret_key_base: "cCJYQLnt/HqBGqyowai4HvJ6Y0lF1jle6FiAQP6fZehGCDNX8lPwQMD/+S/tLkOu",
   render_errors: [view: PracticeWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Practice.PubSub,
