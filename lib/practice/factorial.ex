@@ -8,7 +8,7 @@ defmodule Practice.Calc do
     primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 27]
     factors = []
     cond do
-      rem(x, hd primes == 1 ->
+      rem(x, hd primes) == 1 ->
           factors
       rem(x, hd primes) == 0 ->
           [hd primes | factors]
