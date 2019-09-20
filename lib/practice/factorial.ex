@@ -9,13 +9,14 @@ defmodule Practice.Calc do
     factors = []
     cond do
       rem(x, hd primes) == 1 ->
-          factors
+        factors
       rem(x, hd primes) == 0 ->
-          [hd primes | factors]
-          factorial(div(x, hd primes))
+        z = hd primes
+        factors ++ z
+        factorial(div(x, hd primes))
       rem(x, hd primes) != 0 ->
-          primes = tl primes
-          factorial(div(x, hd primes))
+        primes = tl primes
+        factorial(div(x, hd primes))
     end
   end
 
