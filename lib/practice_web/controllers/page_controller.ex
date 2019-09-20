@@ -21,7 +21,7 @@ defmodule PracticeWeb.PageController do
     render conn, "factor.html", x: x, y: y
   end
 
-  def palindrome(conn, %{"word"=> expr}) do
+  def palindrome(conn, %{"expr"=> expr}) do
     y = Practice.palindrome(expr)
     render conn, "palindrome.html", expr: expr, y: y
   end

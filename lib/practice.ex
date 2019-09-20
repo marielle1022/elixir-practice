@@ -22,9 +22,9 @@ defmodule Practice do
   end
 
   # DONE I think: Add a palindrome? function.
-  def palindrome(word) do
-    backwards = String.reverse(word)
-    String.equivalent?(backwards, word)
+  def palindrome(expr) do
+    backwards = String.reverse(expr)
+    String.equivalent?(backwards, expr)
   end
 
 end
