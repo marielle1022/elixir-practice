@@ -1,4 +1,4 @@
-defmodule Practice.Calc do
+defmodule Practice.Factorial do
   def parse_float(text) do
     {num, _} = String.to_integer(text)
     num

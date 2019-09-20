@@ -11,7 +11,7 @@ hw03.mgrathena.info
 https://github.com/marielle1022/elixir-practice.git
 
 4. How much of the functionality did you complete?
-I got palindrome working.
+I got palindrome working and have some work done on factorial.
 
 5. Did you successfully deploy? If not, what's broken?
 After talking to the TA, I used a workaround to deploy. The standard deployment is giving me a (code=exited, status=216/GROUP) message when I try to deploy.
