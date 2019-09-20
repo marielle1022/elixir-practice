@@ -27,10 +27,11 @@
       <p><%= submit "Factor It" %></p>
     <% end %>
   </div>
+
   <div class="column">
     <h2>Palindrome?</h2>
 	<%= form_for @conn, "/palindrome", fn f -> %>
-		<p>Enter term: <%= text_input f, :x%></p>
+		<p>Enter term: <%= text_input f, :expr%></p>
 		<p><%= submit "Check Palindrome" %></p>
 	<% end %>
 	<!-- DONE above: add a form that checks if a string is a palindrome -->
